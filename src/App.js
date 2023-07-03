@@ -38,7 +38,7 @@ function App() {
       <input type="number" value={n} onChange={handleChange}></input>
       <button onClick={handleClick}>Calculate</button>
       <div style={{ width: '200em', height: '100em' }}>
-        <Tree data={tree} orientation="vertical" nodeSize={{ x: 300, y: 300 }} />
+        <Tree data={tree} orientation="vertical" nodeSize={{ x: 100, y: 100 }} />
       </div>
     </div>
   );
